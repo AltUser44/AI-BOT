@@ -1,0 +1,38 @@
+[theme]
+
+# Primary accent for interactive elements
+primaryColor = "#99FF99"
+
+# Background color for the main content area
+backgroundColor = "#E0F7FA"  # Light sky blue
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#B2EBF2"  # Slightly darker blue for sidebar
+
+# Text color for the app
+textColor = "#004B23"  # Dark green
+
+# Font family for all text in the app
+font = "sans serif"
+
+# Custom CSS for styling the input box
+[theme.custom_css]
+custom_css = """
+<style>
+    /* Style for the chatbot input box */
+    textarea, input[type="text"] {
+        color: #FFFFFF !important; /* White text */
+        border: 2px solid #004D40 !important; /* Dark teal border */
+        background-color: #00796B !important; /* Dark teal background */
+        font-size: 16px !important;
+        font-weight: bold !important;
+        padding: 10px !important;
+    }
+
+    /* Add hover effect for the input box */
+    textarea:hover, input[type="text"]:hover {
+        border-color: #66FF66 !important; /* Bright green on hover */
+        background-color: #00574B !important; /* Darker teal on hover */
+    }
+</style>
+"""
