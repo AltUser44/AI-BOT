@@ -1,16 +1,20 @@
-![Screenshot 2024-04-24 055506](https://github.com/AltUser44/Virtual-Bot/assets/138399028/3654636f-7984-4a51-973c-149e3fadd0c9)
-
 
 # Virtual Bot
 
-Virtual Bot is a conversational agent powered by OpenAI's GPT-3.5 Turbo, designed to respond to user inputs in a chat interface. 
+Virtual Bot is a conversational agent powered by OpenAI's GPT-4 Turbo, designed to respond to user inputs in a chat interface. 
 It's built using Streamlit, which enables rapid web application development for machine learning and data science projects.
+
+![image](https://github.com/user-attachments/assets/fc7baf13-5181-4884-823e-f9d04affff16)
+
 
 ## Features
 
 - Real-time chat interface for interacting with the bot.
-- Uses OpenAI's GPT-3.5 Turbo model for generating responses.
+- Uses OpenAI's GPT-4 Turbo model for generating responses.
 - Session state management to maintain chat history.
+
+  ![image](https://github.com/user-attachments/assets/b2a970e2-91f9-4913-9178-34bbed8cb09f)
+
 
 ## Getting Started
 
